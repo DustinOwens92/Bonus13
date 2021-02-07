@@ -15,6 +15,8 @@ namespace Bonus13
             gameCharacters.Add(new Wizard("Sauron", 0,85, 70, 89));
             gameCharacters.Add(new Wizard("Galadriel", 5, 85, 85, 87));
 
+            //printing out game characters
+
             foreach (GameCharacter play in gameCharacters)
             {
                 Console.WriteLine(play.Play());
